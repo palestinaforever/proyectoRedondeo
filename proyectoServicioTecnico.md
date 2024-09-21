@@ -106,13 +106,6 @@ El proyecto consiste en desarrollar una plataforma de soporte técnico automatiz
 - **Herramientas:** Entorno de desarrollo, herramientas de preprocesamiento de datos y bibliotecas de IA.
 - **Infraestructura:** Servidores para alojar la aplicación y bases de datos.
 
-### 4.3. Cronograma
-
-- **Planificación:** 2 semanas
-- **Desarrollo:** 8 semanas
-- **Pruebas:** 2 semanas
-- **Lanzamiento:** 1 semana
-- **Mantenimiento:** Continuo
 
 ## 5. Consideraciones Finales
 
@@ -299,37 +292,11 @@ Frontend -> Usuario: Muestra diagnóstico
 
 ## 2. Configuración del Entorno de Desarrollo
 
-### 2.1 Crear un Entorno Virtual
-- **Descripción**: Crea un entorno virtual para gestionar las dependencias del proyecto en Python.
-    ```bash
-    python -m venv env
-    ```
 
-### 2.2 Activar el Entorno Virtual
-- **Descripción**: Activa el entorno virtual para instalar paquetes y trabajar en el proyecto sin interferir con otras configuraciones.
-    ```bash
-    # En Windows
-    .\env\Scripts\activate
-    # En macOS/Linux
-    source env/bin/activate
-    ```
-
-### 2.3 Instalar Dependencias Iniciales
-- **Descripción**: Instala las herramientas necesarias como Flask o Django para el backend y React.js para el frontend.
-    ```bash
-    pip install flask django
-    npm install -g create-react-app
-    ```
 
 ## 3. Configuración del Proyecto
 
-### 3.1 Crear Proyecto Django/Flask
-- **Descripción**: Inicializa un nuevo proyecto en Django o Flask.
-    ```bash
-    django-admin startproject myproject
-    # o
-    flask new myproject
-    ```
+
 
 ### 3.2 Configurar Base de Datos
 - **Descripción**: Configura la base de datos para el proyecto en el archivo de configuración (`settings.py` para Django o un archivo de configuración en Flask).
@@ -352,9 +319,7 @@ Frontend -> Usuario: Muestra diagnóstico
 
 ### 5.1 Crear Proyecto React
 - **Descripción**: Inicializa un nuevo proyecto en React para el frontend de la plataforma.
-    ```bash
-    npx create-react-app frontend
-    ```
+
 
 ### 5.2 Implementar Componentes de Usuario
 - **Descripción**: Desarrolla los componentes necesarios para la interfaz de usuario, incluyendo formularios para el registro de vehículos y la descripción de problemas.
@@ -393,7 +358,7 @@ Frontend -> Usuario: Muestra diagnóstico
 # Plan de Ejecución para la Plataforma de Soporte Técnico Automatizado para Coches
 
 ## 1. Preparativos Iniciales
-**Duración Estimada**: 1-2 días
+
 - Instalación y configuración de herramientas y dependencias necesarias.
 
 ## 2. Configuración del Entorno de Desarrollo
@@ -402,33 +367,33 @@ Frontend -> Usuario: Muestra diagnóstico
 - Instalación de bibliotecas y frameworks necesarios.
 
 ## 3. Configuración del Proyecto
-**Duración Estimada**: 2-3 días
+
 - Inicialización del proyecto en Django o Flask.
 - Configuración de la base de datos y del entorno de desarrollo.
 
 ## 4. Desarrollo del Backend
-**Duración Estimada**: 3-4 semanas
+
 - Implementación de rutas y vistas.
 - Desarrollo de la lógica de diagnóstico.
 - Integración del sistema de IA para el diagnóstico de problemas.
 
 ## 5. Desarrollo del Frontend
-**Duración Estimada**: 3-4 semanas
+
 - Creación de la interfaz de usuario en React.
 - Integración del frontend con el backend.
 
 ## 6. Pruebas
-**Duración Estimada**: 1-2 semanas
+
 - Realización de pruebas unitarias.
 - Pruebas de integración y de usabilidad.
 
 ## 7. Despliegue
-**Duración Estimada**: 1 semana
+
 - Preparación del entorno de producción.
 - Despliegue de la plataforma y configuración del servidor.
 
 ## 8. Mantenimiento
-**Duración Estimada**: Continuo
+
 - Monitoreo y corrección de errores.
 - Actualización de la plataforma y mejoras basadas en la retroalimentación de los usuarios.
 
